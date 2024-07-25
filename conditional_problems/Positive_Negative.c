@@ -1,4 +1,4 @@
-//Positive, Negative, or Zero: Write a program that takes a number as input and prints whether it is positive, negative, or zero.
+//Positive, Negative, or Zero
 #include<stdio.h>
 int main()
 {
