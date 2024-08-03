@@ -1,4 +1,4 @@
-//	3.	Reverse Array: Write a program to reverse the elements of an array.
+//Reverse Array: Write a program to reverse the elements of an array.
 #include<stdio.h>
 int main()
 {

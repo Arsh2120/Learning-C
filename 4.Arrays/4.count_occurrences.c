@@ -1,4 +1,4 @@
-//	5.	Count Occurrences: Write a program to count the number of occurrences of the numbers in an array.
+//Count Occurrences: Write a program to count the number of occurrences of the numbers in an array.
 #include<stdio.h>
 int main()
 {
