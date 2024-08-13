@@ -18,12 +18,18 @@ int main()
         }
     }
     printf("Element\tDistribution\n");
-    for (i = 0; i < n; i++)
+    for(i=0;i<n;i++)
     {
-        if (count[i] > 0) // Print only if count is greater than 0
+        int is_duplicate=0;
+        for (j = 0; j < i; j++)
         {
-            printf("%d\t%d\n", arr[i], count[i]);
+            if (arr[i] == arr[j]) 
+            {
+            is_duplicate = 1;
+            break; 
+            }
         }
+        (!is_duplicate)?printf("%d\t%d\n",arr[i],count[i]):0;
     }
     return 0;
 }
